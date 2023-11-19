@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Champagne;
+  src: url(cac_champagne.woff) format("woff"),
+    url(cac_champagne.ttf) format("ttf");
+}
+
+/*
+   Practical 3A
+   
+   Typographical Style Sheet
+   
+   Filename: gg_overlay4.css
+
+*/
+
+/* Page Body Styles */
+
+body {
+  background-color: rgb(5, 107, 5);
+}
+
+/* Horizontal Navigation List Styles */
+div.newRow {
+  background-color: rgb(3, 101, 3);
+}
+
+nav {
+  display: table;
+  width: 100%;
+  font-family: champagne, Helvetica, sans-serif;
+  color: white;
+}
+
+nav > ul {
+  display: table-row;
+}
+
+nav > ul > li {
+  font-size: 1.5em;
+  display: table-cell;
+  text-align: center;
+}
+
+nav a:link,
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+  color: rgba(235, 235, 238, 0.7);
+}
+
+article#intro > h1 {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-size: 3em;
+}
+
+article#intro > p{
+   margin: 0px;
+   padding: 5px 0px 25px 0px;
+   font-size: 1.2em;
+}
+
+div.col-2-3 > div.newRow{
+   background-color: rgb(34, 139, 34);
+   height: small;
+}
+div.col-1-3 > h1{
+   font-family: champagne;
+   font-size: 2em;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+div.col-1-3 > p{
+   padding-bottom: 20px;
+}
+
+
+
+div.col-1-3 > div > img{
+   padding: 5px;
+   width: 120px;
+}
+
+
+
+div.col-1-3#ingredientList{
+   background-color: bisque;
+   flex:auto;
+}
+
+
+
+div.col-2-3 > div.newRow{
+   background-color: rgb(9, 151, 9);
+   height: small;
+}
+#ingredient1{
+   float:left;
+   text-align: center;
+   padding: 0px 24px 0px 0px;
+   
+}
+#ingredient2{
+   float:right;
+   text-align: center;
+   padding: 0px 24px 0px 0px;
+   
+}
+#ingredient3{
+   float:left;
+   text-align: center;
+   padding: 0px 24px 0px 0px;
+}
+#ingredient4{
+   float:right;
+   text-align: center;
+   padding: 0px 24px 0px 0px;
+}
+
+#ingredient5{
+   float:left;
+   text-align: center;
+   padding: 0px 24px 0px 0px;
+}
+
+
+div.col-1-3 > p > a:link,
+div.col-1-3 > p > a:visited,
+div.col-1-3 > p > a:hover,
+div.col-1-3 > p > a:active{
+   color: white;
+  text-decoration: none;
+
+}
+
+
+
+
+/* Article Styles */
+
+/* Specials Styles */
+
+/* ingredient Styles */
+
+/* Footer Styles */
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-style: normal;
+  text-align: center;
+  font-size: 0.9em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
